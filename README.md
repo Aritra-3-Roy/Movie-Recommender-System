@@ -14,20 +14,6 @@ The dataset used in this project is the **MovieLens 20M dataset**, available at 
   - `genome-tags.csv` (Tag descriptions)
   - `links.csv` (Mapping between MovieLens IDs and external movie databases)
 
-## Project Structure
-```
-├── ml-20m/                      # Extracted dataset files
-│   ├── ratings.csv              # User-movie ratings data
-│   ├── movies.csv               # Movie metadata
-│   ├── tags.csv                 # User-assigned tags
-│   ├── genome-scores.csv        # Tag relevance scores
-│   ├── genome-tags.csv          # Tag descriptions
-│   ├── links.csv                # Movie ID mappings
-│   ├── README.txt               # Original dataset README
-├── model.py                     # Model definition and training script
-├── requirements.txt             # Required Python dependencies
-├── README.md                    # Project documentation
-```
 
 ## Installation
 ### Prerequisites
